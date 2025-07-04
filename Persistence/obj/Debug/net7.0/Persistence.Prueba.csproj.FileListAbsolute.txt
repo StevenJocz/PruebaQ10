@@ -1,0 +1,17 @@
+D:\Nuevo grupo\Prueba\Persistence\bin\Debug\net7.0\Persistence.Prueba.deps.json
+D:\Nuevo grupo\Prueba\Persistence\bin\Debug\net7.0\Persistence.Prueba.dll
+D:\Nuevo grupo\Prueba\Persistence\bin\Debug\net7.0\Persistence.Prueba.pdb
+D:\Nuevo grupo\Prueba\Persistence\bin\Debug\net7.0\Domain.Prueba.dll
+D:\Nuevo grupo\Prueba\Persistence\bin\Debug\net7.0\Infrastructure.Prueba.dll
+D:\Nuevo grupo\Prueba\Persistence\bin\Debug\net7.0\Infrastructure.Prueba.pdb
+D:\Nuevo grupo\Prueba\Persistence\bin\Debug\net7.0\Domain.Prueba.pdb
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\Persistence.Prueba.csproj.AssemblyReference.cache
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\Persistence.Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\Persistence.Prueba.AssemblyInfoInputs.cache
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\Persistence.Prueba.AssemblyInfo.cs
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\Persistence.Prueba.csproj.CoreCompileInputs.cache
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\Persistence.Prueba.csproj.CopyComplete
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\Persistence.Prueba.dll
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\refint\Persistence.Prueba.dll
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\Persistence.Prueba.pdb
+D:\Nuevo grupo\Prueba\Persistence\obj\Debug\net7.0\ref\Persistence.Prueba.dll

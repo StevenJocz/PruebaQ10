@@ -1,0 +1,15 @@
+D:\Nuevo grupo\Prueba\Infrastructure\bin\Debug\net7.0\Infrastructure.Prueba.deps.json
+D:\Nuevo grupo\Prueba\Infrastructure\bin\Debug\net7.0\Infrastructure.Prueba.dll
+D:\Nuevo grupo\Prueba\Infrastructure\bin\Debug\net7.0\Infrastructure.Prueba.pdb
+D:\Nuevo grupo\Prueba\Infrastructure\bin\Debug\net7.0\Domain.Prueba.dll
+D:\Nuevo grupo\Prueba\Infrastructure\bin\Debug\net7.0\Domain.Prueba.pdb
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\Infrastructure.Prueba.csproj.AssemblyReference.cache
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\Infrastructure.Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\Infrastructure.Prueba.AssemblyInfoInputs.cache
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\Infrastructure.Prueba.AssemblyInfo.cs
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\Infrastructure.Prueba.csproj.CoreCompileInputs.cache
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\Infrastructure.Prueba.csproj.CopyComplete
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\Infrastructure.Prueba.dll
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.Prueba.dll
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\Infrastructure.Prueba.pdb
+D:\Nuevo grupo\Prueba\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.Prueba.dll

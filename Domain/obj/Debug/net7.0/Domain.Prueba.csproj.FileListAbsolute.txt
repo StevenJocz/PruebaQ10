@@ -1,0 +1,12 @@
+D:\Nuevo grupo\Prueba\Domain\bin\Debug\net7.0\Domain.Prueba.deps.json
+D:\Nuevo grupo\Prueba\Domain\bin\Debug\net7.0\Domain.Prueba.dll
+D:\Nuevo grupo\Prueba\Domain\bin\Debug\net7.0\Domain.Prueba.pdb
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\Domain.Prueba.csproj.AssemblyReference.cache
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\Domain.Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\Domain.Prueba.AssemblyInfoInputs.cache
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\Domain.Prueba.AssemblyInfo.cs
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\Domain.Prueba.csproj.CoreCompileInputs.cache
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\Domain.Prueba.dll
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\refint\Domain.Prueba.dll
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\Domain.Prueba.pdb
+D:\Nuevo grupo\Prueba\Domain\obj\Debug\net7.0\ref\Domain.Prueba.dll
