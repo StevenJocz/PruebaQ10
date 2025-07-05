@@ -31,7 +31,7 @@ Abre el archivo `appsettings.json` del proyecto **API** y actualiza la cadena de
 "frontend": "http://localhost:5033"
 ```
 
-### 🌐 2. Configurar la URL base de la API (Interfaz)
+### 🌐 2. Configurar la URL base de la API (Web)
 
 Abre el archivo `appsettings.json` del proyecto **Interfaz** y modifica la URL base de la API:
 
