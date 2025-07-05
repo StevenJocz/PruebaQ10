@@ -9,9 +9,13 @@ namespace PruebaQ10.Aplication
         {
             // Commands Persistance
             service.AddTransient<IEstudianteCommands, EstudianteCommands>();
+            service.AddTransient<IMateriaCommands, MateriaCommands>();
+            service.AddTransient<IInscripcionCommands, InscripcionCommands>();
 
             // Queries Persistance
             service.AddTransient<IEstudianteQueries, EstudianteQueries>();
+            service.AddTransient<IMateriaQueries, MateriaQueries>();
+            service.AddTransient<IInscripcionQueries, InscripcionQueries>();
 
             return service;
         }

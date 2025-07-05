@@ -12,6 +12,15 @@ builder.Services.AddSwaggerGen();
 var proveedor = builder.Services.BuildServiceProvider();
 var configuration = proveedor.GetRequiredService<IConfiguration>();
 
+builder.Services.AddCors(opciones =>
+{
+    var frontend = configuration.GetValue<string>("frontend");
+    opciones.AddDefaultPolicy(builder => {
+        builder.WithOrigins(frontend).AllowAnyMethod().AllowAnyHeader().AllowCredentials();
+    });
+});
+
+
 builder.Services.AddStartupSetup(builder.Configuration);
 
 
@@ -25,6 +34,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors();
 
 app.UseAuthorization();
 

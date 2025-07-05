@@ -1,0 +1,172 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Estudiantes";
+}
+
+<h2 class="text-center">Estudiantes</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p class="text-muted fst-italic">
+                Esta sección te permite administrar los estudiantes registrados, editar su información o agrega nuevos estudiantes.
+            </p>
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Registrar estudiante
+            </button>
+        </div>
+        <div class="col-12 mt">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Documento</th>
+                        <th scope="col">Correo</th>
+                        <th scope="col">Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var m in Model.EstudiantesD)
+                    {
+                        <tr>
+                            <td>@m.Nombre</td>
+                            <td>@m.Documento</td>
+                            <td>@m.Correo</td>
+                            <td>
+                                <a class="btn btn-sm btn-info"
+                               asp-page="/Index"
+                               asp-route-id="@m.Id"
+                               asp-route-editar="true">
+                                    Ver
+                                </a>
+                                <a class="btn btn-sm btn-success"
+                               asp-page="/Index"
+                               asp-route-id="@m.Id"
+                               asp-route-inscribir="true">
+                                    Inscribir materias
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Estudiante Seleccionado</h1>
+                <a href="/Index" class="btn-close"></a>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <form method="post">
+                        <input type="hidden" name="EstudianteSeleccionado.Id" value="@Model.EstudianteSeleccionado?.Id" />
+
+                        <div class="col-12">
+                            <label class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" name="EstudianteSeleccionado.Nombre" value="@Model.EstudianteSeleccionado?.Nombre">
+                        </div>
+                        <div class="col-12 mt">
+                            <label class="form-label">Documento</label>
+                            <input type="text" class="form-control" name="EstudianteSeleccionado.Documento" value="@Model.EstudianteSeleccionado?.Documento">
+                        </div>
+                        <div class="col-12 mt">
+                            <label class="form-label">Correo</label>
+                            <input type="email" class="form-control" name="EstudianteSeleccionado.Correo" value="@Model.EstudianteSeleccionado?.Correo">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="inscripcionModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <form method="post" asp-page-handler="Inscribir">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inscribir materia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+
+                    <input type="hidden" name="InscripcionNueva.id_Estudiante" id="InscripcionDTOs_id_Estudiante" value="@Model.EstudianteSeleccionado.Id" />
+                    @if (Model.MateriasInscritas.Any())
+                    {
+                        <div class="mb-3">
+                            <label class="form-label">Materias ya inscritas:</label>
+                            <ul class="list-group">
+                                @foreach (var mat in Model.MateriasInscritas)
+                                {
+                                    <li class="list-group-item">@mat.nombre - @mat.creditos créditos</li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                    @if (TempData["ErrorInscripcion"] != null)
+                    {
+                        <div class="alert alert-danger">
+                            @TempData["ErrorInscripcion"]
+                        </div>
+                    }
+                    <div class="mb-3">
+                        <label class="form-label">Selecciona una materia</label>
+                        <select name="InscripcionNueva.id_materia" class="form-select">
+                            <option value="">-- Selecciona --</option>
+                            @foreach (var mat in Model.MateriasDisponibles)
+                            {
+                                <option value="@mat.id">@mat.nombre - @mat.GetHashCode créditos</option>
+                            }
+                        </select>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Guardar inscripción</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+        @if (ViewData["AbrirModalInscripcion"] as bool? == true)
+        {
+            <text>
+                                const inscripcionModal = new bootstrap.Modal(document.getElementById('inscripcionModal'));
+                inscripcionModal.show();
+            </text>
+        }
+
+        @if (ViewData["AbrirModalEditar"] as bool? == true)
+        {
+            <text>
+                                const editarModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+                editarModal.show();
+            </text>
+        }
+                });
+    </script>
+}

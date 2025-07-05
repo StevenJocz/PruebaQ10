@@ -1,0 +1,99 @@
+﻿@page
+@model IMateriasModel
+@{
+    ViewData["Title"] = "Materia";
+}
+
+<h2 class="text-center">Materias</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p class="text-muted fst-italic">
+                Esta sección te permite administrar las materias registradas, editar su información o agregar nuevas.
+            </p>
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Registrar materia
+            </button>
+        </div>
+        <div class="col-12 mt">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Código</th>
+                        <th scope="col">Créditos</th>
+                        <th scope="col">Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var m in Model.MateriasD)
+                    {
+                        <tr>
+                            <td>@m.nombre</td>
+                            <td>@m.codigo</td>
+                            <td>@m.creditos</td>
+                            <td><a class="btn btn-sm btn-info" asp-page="/Materias" asp-route-id="@m.id">Ver</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Materia</h1>
+                <a href="/Materias" class="btn-close"></a>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <form method="post">
+                        <input type="hidden" name="MateriaSeleccionada.id" value="@Model.MateriaSeleccionada?.id" />
+
+                        <div class="col-12">
+                            <label class="form-label">Materia</label>
+                            <input type="text" class="form-control" name="MateriaSeleccionada.nombre" value="@Model.MateriaSeleccionada?.nombre">
+                        </div>
+                        <div class="col-12 mt">
+                            <label class="form-label">Código</label>
+                            <input type="text" class="form-control" name="MateriaSeleccionada.codigo" value="@Model.MateriaSeleccionada?.codigo">
+                        </div>
+                        <div class="col-12 mt">
+                            <label class="form-label">Créditos</label>
+                            <input type="text" class="form-control" name="MateriaSeleccionada.creditos" value="@Model.MateriaSeleccionada?.creditos">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    <script>
+        const materiaNombre = "@Model.MateriaSeleccionada?.nombre";
+
+        if (materiaNombre) {
+            window.addEventListener("DOMContentLoaded", () => {
+                const modal = new bootstrap.Modal(document.getElementById('exampleModal'));
+                modal.show();
+            });
+        }
+    </script>
+}

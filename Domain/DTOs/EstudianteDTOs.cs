@@ -9,19 +9,19 @@ namespace Domain.Prueba.DTOs
 {
     public class EstudianteDTOs
     {
-        public int id { get; set; }
-        public string nombre { get; set; }
-        public string documento { get; set; }
-        public string correo { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Documento { get; set; }
+        public string Correo { get; set; }
 
         public static EstudianteDTOs CrearDTO(EstudianteE estudianteE)
         {
             return new EstudianteDTOs
             {
-                id = estudianteE.id_Estudiante,
-                nombre = estudianteE.s_nombre,
-                documento = estudianteE.s_documento,
-                correo = estudianteE.s_correo
+                Id = estudianteE.id_Estudiante,
+                Nombre = estudianteE.s_nombre,
+                Documento = estudianteE.s_documento,
+                Correo = estudianteE.s_correo
 
             };
         }
@@ -30,10 +30,10 @@ namespace Domain.Prueba.DTOs
         {
             return new EstudianteE
             {
-                id_Estudiante = estudianteDTOs.id,
-                s_nombre = estudianteDTOs.nombre,
-                s_documento = estudianteDTOs.documento,
-                s_correo = estudianteDTOs.correo
+                id_Estudiante = estudianteDTOs.Id,
+                s_nombre = estudianteDTOs.Nombre,
+                s_documento = estudianteDTOs.Documento,
+                s_correo = estudianteDTOs.Correo
             };
         }
     }

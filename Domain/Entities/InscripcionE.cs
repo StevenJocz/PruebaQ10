@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Prueba.Entities
 {
-    [Table("Tbl_Incripcio")]
+    [Table("Tbl_Inscripcion")]
     public class InscripcionE
     {
         [Key]
