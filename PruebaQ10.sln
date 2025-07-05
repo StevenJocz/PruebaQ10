@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Prueba", "In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.Prueba", "Persistence\Persistence.Prueba.csproj", "{1992B0BF-39C4-4E47-ACFD-6B231CA538B2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaz", "Interfaz", "{5577FCAA-7945-40FA-8431-85B3ABDBD457}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5577FCAA-7945-40FA-8431-85B3ABDBD457}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{84F5B306-C644-491C-9BCB-9DD5CE208795}"
 EndProject
