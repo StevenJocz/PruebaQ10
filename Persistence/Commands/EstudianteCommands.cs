@@ -22,7 +22,7 @@ namespace Persistence.Prueba.Commands
         {
             _logger = logger;
             _configuration = configuration;
-            string? connectionString = _configuration.GetConnectionString("DataBase");
+            string? connectionString = _configuration.GetConnectionString("BaseDatos");
             _context = new Context(connectionString);
         }
 

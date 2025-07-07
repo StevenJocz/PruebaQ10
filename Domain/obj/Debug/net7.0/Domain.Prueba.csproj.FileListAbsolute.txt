@@ -22,3 +22,15 @@ D:\Proyectos Desarrollo\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.dll
 D:\Proyectos Desarrollo\PruebaQ10\Domain\obj\Debug\net7.0\refint\Domain.Prueba.dll
 D:\Proyectos Desarrollo\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.pdb
 D:\Proyectos Desarrollo\PruebaQ10\Domain\obj\Debug\net7.0\ref\Domain.Prueba.dll
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\bin\Debug\net7.0\Domain.Prueba.deps.json
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\bin\Debug\net7.0\Domain.Prueba.dll
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\bin\Debug\net7.0\Domain.Prueba.pdb
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.csproj.AssemblyReference.cache
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.AssemblyInfoInputs.cache
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.AssemblyInfo.cs
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.csproj.CoreCompileInputs.cache
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.dll
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\refint\Domain.Prueba.dll
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\Domain.Prueba.pdb
+D:\Proyectos UNAC\Proyectos\PruebaQ10\Domain\obj\Debug\net7.0\ref\Domain.Prueba.dll

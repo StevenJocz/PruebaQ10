@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos Desarrollo\\PruebaQ10\\PruebaQ10\\PruebaQ10.csproj": {}
+    "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\PruebaQ10\\PruebaQ10.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos Desarrollo\\PruebaQ10\\Domain\\Domain.Prueba.csproj": {
+    "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Domain\\Domain.Prueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos Desarrollo\\PruebaQ10\\Domain\\Domain.Prueba.csproj",
+        "projectUniqueName": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Domain\\Domain.Prueba.csproj",
         "projectName": "Domain.Prueba",
-        "projectPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Domain\\Domain.Prueba.csproj",
-        "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Domain\\obj\\",
+        "projectPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Domain\\Domain.Prueba.csproj",
+        "packagesPath": "C:\\Users\\soporte.sion.UNAC\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\soporte.sion.UNAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -55,22 +61,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos Desarrollo\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj": {
+    "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos Desarrollo\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj",
+        "projectUniqueName": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj",
         "projectName": "Infrastructure.Prueba",
-        "projectPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj",
-        "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj",
+        "packagesPath": "C:\\Users\\soporte.sion.UNAC\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\soporte.sion.UNAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -83,8 +95,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Proyectos Desarrollo\\PruebaQ10\\Domain\\Domain.Prueba.csproj": {
-                "projectPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Domain\\Domain.Prueba.csproj"
+              "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Domain\\Domain.Prueba.csproj": {
+                "projectPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Domain\\Domain.Prueba.csproj"
               }
             }
           }
@@ -120,22 +132,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos Desarrollo\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj": {
+    "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos Desarrollo\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj",
+        "projectUniqueName": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj",
         "projectName": "Persistence.Prueba",
-        "projectPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj",
-        "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Persistence\\obj\\",
+        "projectPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj",
+        "packagesPath": "C:\\Users\\soporte.sion.UNAC\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\soporte.sion.UNAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -148,8 +166,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Proyectos Desarrollo\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj": {
-                "projectPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj"
+              "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj": {
+                "projectPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Infrastructure\\Infrastructure.Prueba.csproj"
               }
             }
           }
@@ -179,22 +197,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos Desarrollo\\PruebaQ10\\PruebaQ10\\PruebaQ10.csproj": {
+    "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\PruebaQ10\\PruebaQ10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos Desarrollo\\PruebaQ10\\PruebaQ10\\PruebaQ10.csproj",
+        "projectUniqueName": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\PruebaQ10\\PruebaQ10.csproj",
         "projectName": "PruebaQ10",
-        "projectPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\PruebaQ10\\PruebaQ10.csproj",
-        "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\PruebaQ10\\obj\\",
+        "projectPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\PruebaQ10\\PruebaQ10.csproj",
+        "packagesPath": "C:\\Users\\soporte.sion.UNAC\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\PruebaQ10\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\soporte.sion.UNAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -207,8 +231,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Proyectos Desarrollo\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj": {
-                "projectPath": "D:\\Proyectos Desarrollo\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj"
+              "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj": {
+                "projectPath": "D:\\Proyectos UNAC\\Proyectos\\PruebaQ10\\Persistence\\Persistence.Prueba.csproj"
               }
             }
           }
@@ -255,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

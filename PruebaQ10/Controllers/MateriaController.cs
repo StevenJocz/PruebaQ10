@@ -6,7 +6,7 @@ using Persistence.Prueba.Queries;
 
 namespace PruebaQ10.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     public class MateriaController : ControllerBase
     {
@@ -21,8 +21,8 @@ namespace PruebaQ10.Controllers
             _logger = logger;
         }
 
-        [HttpPost("PostRegistrar")]
-        public async Task<IActionResult> registrarMateria(MateriaDTOs materiaDTOs)
+        [HttpPost("materias")]
+        public async Task<IActionResult> registrarMateria([FromBody] MateriaDTOs materiaDTOs)
         {
             try
             {
@@ -37,25 +37,8 @@ namespace PruebaQ10.Controllers
             }
         }
 
-        [HttpPut("PutEditar")]
-        public async Task<IActionResult> ActualizarMateria(MateriaDTOs materiaDTOs)
-        {
-            {
-                try
-                {
-                    _logger.LogInformation("Iniciando MateriaController.ActualizarMateria...");
-                    var respuesta = await _materiaCommands.ActualizarMateria(materiaDTOs);
-                    return Ok(respuesta);
-                }
-                catch (Exception)
-                {
-                    _logger.LogError("Error al iniciar MateriaController.ActualizarMateria...");
-                    throw;
-                }
-            }
-        }
 
-        [HttpGet("GetListarMaterias")]
+        [HttpGet("materias")]
         public async Task<IActionResult> ListarMaterias()
         {
             _logger.LogInformation("Iniciando MateriaController.ListarMaterias...");
@@ -72,7 +55,7 @@ namespace PruebaQ10.Controllers
         }
 
 
-        [HttpGet("GetListarMateriaID")]
+        [HttpGet("materias/{1}")]
         public async Task<IActionResult> ListarMateriaId(int id)
         {
             _logger.LogInformation("Iniciando MateriaController.ListarMateriaId...");
@@ -85,6 +68,24 @@ namespace PruebaQ10.Controllers
             {
                 _logger.LogError("Error al iniciar MateriaController.ListarMateriaId");
                 throw;
+            }
+        }
+
+        [HttpPut("materias/{1}")]
+        public async Task<IActionResult> ActualizarMateria(int id, [FromBody] MateriaDTOs materiaDTOs)
+        {
+            {
+                try
+                {
+                    _logger.LogInformation("Iniciando MateriaController.ActualizarMateria...");
+                    var respuesta = await _materiaCommands.ActualizarMateria(materiaDTOs);
+                    return Ok(respuesta);
+                }
+                catch (Exception)
+                {
+                    _logger.LogError("Error al iniciar MateriaController.ActualizarMateria...");
+                    throw;
+                }
             }
         }
 
